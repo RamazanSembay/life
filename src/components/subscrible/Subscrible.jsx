@@ -13,7 +13,7 @@ const Subscrible = () => {
                     Подпишитесь и найдите у нас супер привлекательные предложения
                 </p>
 
-                <a href="#" className="button subscrible__button">
+                <a href="#home" className="button subscrible__button">
                     Начинаю
                 </a>
             </div>

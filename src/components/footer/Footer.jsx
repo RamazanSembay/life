@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className='footer section' id='footer'>
       <div className='footer__container container grid'>
         <div>
-          <a href="#" className='footer__logo'>
+          <a href="#home" className='footer__logo'>
             Nurramazan Sembay <i className='bx bxs-home-alt-2' ></i>
           </a>
           <p className='footer_description'>
@@ -23,15 +23,15 @@ const Footer = () => {
 
             <ul className='footer__links'>
               <li>
-                <a href="#" className='footer__link'>About Us</a>
+                <a href="#home" className='footer__link'>About Us</a>
               </li>
 
               <li>
-                <a href="#" className='footer__link'>Features</a>
+                <a href="#home" className='footer__link'>Features</a>
               </li>
 
               <li>
-                <a href="#" className='footer__link'>News & Blog</a>
+                <a href="#home" className='footer__link'>News & Blog</a>
               </li>
             </ul>
           </div>
@@ -42,15 +42,15 @@ const Footer = () => {
 
             <ul className='footer__links'>
               <li>
-                <a href="#" className='footer__link'>Как мы работаем?</a>
+                <a href="#home" className='footer__link'>Как мы работаем?</a>
               </li>
 
               <li>
-                <a href="#" className='footer__link'>Капитал</a>
+                <a href="#home" className='footer__link'>Капитал</a>
               </li>
 
               <li>
-                <a href="#" className='footer__link'>Безопасность</a>
+                <a href="#home" className='footer__link'>Безопасность</a>
               </li>
             </ul>
           </div>
@@ -61,15 +61,15 @@ const Footer = () => {
 
             <ul className='footer__links'>
               <li>
-                <a href="#" className='footer__link'>Часто задаваемые <br></br> вопросы</a>
+                <a href="#home" className='footer__link'>Часто задаваемые <br></br> вопросы</a>
               </li>
 
               <li>
-                <a href="#" className='footer__link'>Центр поддержки</a>
+                <a href="#home" className='footer__link'>Центр поддержки</a>
               </li>
 
               <li>
-                <a href="#" className='footer__link'>Свяжитесь с нами</a>
+                <a href="#home" className='footer__link'>Свяжитесь с нами</a>
               </li>
             </ul>
           </div>
@@ -101,8 +101,8 @@ const Footer = () => {
         </span>
 
         <div className='footer__privacy'>
-          <a href="#">Условия и соглашения</a>
-          <a href="#">Политика конфиденциальности</a>
+          <a href="#home">Условия и соглашения</a>
+          <a href="#home">Политика конфиденциальности</a>
         </div>
       </div>
     </footer>

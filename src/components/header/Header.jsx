@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className='header' id='header'>
       <nav className='nav container'>
-        <a href="#" className='nav__logo'>
+        <a href="#home" className='nav__logo'>
           NURRAMAZAN SEMBAY
           <i className='bx bxs-home-alt-2'></i>
         </a>
@@ -48,7 +48,7 @@ const Header = () => {
         {/* Theme change button */}
         <i className='bx bx-moon change-theme' id='theme-button'></i>
 
-        <a href="#" className="button nav__button">Subscrible</a>
+        <a href="#home" className="button nav__button">Subscrible</a>
       </nav>
     </header>
   )

@@ -15,8 +15,7 @@ function App() {
       <main className='main'>
         <MyHome />
         <Subscrible />
-        {/* <Home /> */}
-        {/* <Logos /> */}
+        
         <Footer />
         <ScrollUp />
       </main>
